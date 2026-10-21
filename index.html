@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Hub</title>
+    <style>
+        /* Modern, clean typography & layout */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+            font-size: 2rem;
+            color: #e50914; /* Streaming red accent */
+        }
+
+        p {
+            color: #b3b3b3;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        /* Button styling */
+        .btn {
+            display: block;
+            background-color: #333333;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.2s ease-in-out;
+            border: 1px solid #444444;
+        }
+
+        /* Unique hover colors for different streaming brands */
+        .btn-bollyflix:hover {
+            background-color: #e50914; /* Red accent */
+            border-color: #e50914;
+            transform: translateY(-2px);
+        }
+
+        .btn-moviesmod:hover {
+            background-color: #0070f3; /* Blue accent */
+            border-color: #0070f3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Movies</h1>
+        <p>Select Countries</p>
+
+        <!-- Button 1: Bollyflix -->
+        <a href="https://convertytmp3.org/" target="_blank" class="btn btn-bollyflix">Audio(MP3)</a>
+
+        <!-- Button 2: Moviesmod -->
+        <a href="https://moviesmod.uk.com/" class="btn btn-moviesmod">Video(MP4)</a>
+    </div>
+
+</body>
+</html>
